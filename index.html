@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Site</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000000; /* اللون الخلفي */
+        }
+        .image-container {
+            background-color: #000000; /* اللون الخلفي للفارغ */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container img {
+            max-width: 80%; /* ضبط حجم الصورة */
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="start.jpg" alt="Centered Image">
+    </div>
+</body>
+</html>
